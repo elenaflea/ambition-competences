@@ -1,0 +1,880 @@
+body{
+    margin: 0;
+}
+.heading {
+    height: 100vh;
+    background-image: url('hand5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconLogo{
+    width: 80px;
+}
+
+h1, .h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 48px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    z-index: 10;
+    text-align: center;
+}
+.h2{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 10;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+    color: #6391ab;
+    letter-spacing: 1px;
+    z-index: 10;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    z-index: 10;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+
+    width: 80px;
+    height: 80px;
+    transition: all 0.3s ease;
+}
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #ffffff;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+    
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+.cta:active {
+    transform: scale(0.96);
+}
+.proverbe{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+    z-index: 10;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.proverbeTwo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    z-index: 10;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.headBtn{
+    background: rgba(8,8,8,0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+}
+.headBtn:hover{
+    background: rgba(8,8,8,0.9);
+}
+.noDecoBtn{
+    text-decoration: none;
+}
+.arrow{
+    color : #ffffff;
+    animation: bas infinite 2s ease-in-out;
+    animation-direction: alternate-reverse;
+}
+.arrow:hover{
+    color: #6391ab;
+}
+
+@keyframes bas {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  .myNav{
+      background: #ffffff;
+      padding: 8px 30px;
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+     
+  }
+  #myNav{
+    z-index: 100;
+    border-bottom: 2px solid #6391ab;
+  }
+  .navLink{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #212121;
+    margin: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .navLink:hover{
+      color:#6391ab;
+  }
+.logoNav{
+    margin-right: auto;
+}
+.logoNavPng{
+    height: 55px;
+}
+.burger{
+    display: none;
+}
+.iconBurger{
+    color: #467d99;
+    font-size: 20px;
+}
+.burger{
+    display: none;
+}
+.columnMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.back{
+    height: 40vh;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(0.8);
+}
+.backTwo{
+    height: 40vh;
+    background-image: url('back22.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(0.8);
+}
+.backThree{
+    height: 40vh;
+    background-image: url('back3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(0.8);
+}
+.backFour{
+    height: 70vh;
+    background-image: url('back44.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backFive{
+    height: 40vh;
+    background-image: url('back55.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backSix{
+    height: 40vh;
+    background-image: url('back6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.4);
+}
+.titrePlace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #467d99;
+}
+.titre{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin: 0;
+}
+.greyBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #c7c7c7;
+    flex-wrap: wrap;
+}
+.leftBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 30px;
+    
+}
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px;
+    align-items: flex-start;
+    text-align: left;
+    
+}
+.blackLine{
+    height: 1px;
+    background: #000000;
+    border: 1px solid #000000;
+    width: 90%;
+}
+.blackSousTitre{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.blackSousTitreTwo{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+}
+.blackPar{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px;
+}
+.blackParTwo{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22pt;
+    margin: 0px;
+}
+.whiteContainer{
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+.pointer{
+    cursor: pointer;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.width50{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.width40{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginZero{
+    margin: 0;
+}
+.blackTitre{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px;
+}
+.bluePar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #467d99;
+    margin: 10px
+}
+.blueParTwo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: #467d99;
+    margin: 0;
+    line-height: 22pt;
+   
+}
+.greyPar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #666666;
+    margin: 10px
+}
+.whitePar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 2px;
+}
+.whiteParTwo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #ffffff;
+    margin: 2px;
+}
+.whiteParThree{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 2px;
+}
+.whiteParThree:hover{
+    color: #467d99; 
+   
+}
+.flexOne{
+    flex:1;
+}
+.flexTwo{
+    flex:2;
+}
+.greyContainer{
+    display: flex;
+    justify-content: center;
+    background: #c7c7c7;
+}
+.blueBold{
+    font-weight: 600;
+    color: #467d99;
+}
+.centerPar{
+    display: flex;
+    justify-content: center;
+}
+.smallTitre{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #ffffff;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+.smallTitreTwo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0px ;
+}
+.doneIcon{
+    color: #467d99;
+    margin: 0 20px;
+}
+.iconArrow{
+    color: #fff; 
+}
+.iconCall{
+    color: #fff; 
+    margin: 5px;
+}
+.iconCall:hover{
+    color: #467d99; 
+   
+}
+.btnCTA{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background: #f5914f;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+}
+.btnLink{
+    color: #ffffff;
+}
+.btnLink:hover{
+    color: #02475E
+}
+.btnSend{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background: #f5914f;
+    height: 42pt;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btnCTA:hover, .btnSend:hover{
+    filter: drop-shadow(0 0 0.75rem black);
+    color: #02475E;
+}
+.myPhoto{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+label{
+    margin: 10px;
+}
+input, textarea{
+    height: 36pt;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+}
+textarea{
+    padding: 8px 0px 0px 15px;
+}
+::placeholder {
+    color: #c7c7c7;
+}
+:-ms-input-placeholder {
+    color: #c7c7c7;
+}
+::-ms-input-placeholder {
+    color: #c7c7c7;
+}
+::-webkit-input-placeholder {
+    color: #c7c7c7;
+}
+a{
+    text-decoration: none;
+
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.check{
+    align-self: center;
+    margin: 2px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #000000;
+    height: 80px;
+    text-align: center;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+@media all and (max-width : 800px) {
+    h1{
+        font-size: 35px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px; 
+    }
+    h1,.h2, h3, h4{
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .headBtn{
+        flex-direction: column;
+    }
+    .myNav{
+        flex-direction: column;
+    }
+    .logoNav{
+        margin-right: 0;
+        margin: 0;
+    }
+    .navLink{
+        margin: 10px 0px;
+    }
+    #hidden{
+        display: none;
+        padding: 5px 0px;
+        
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .columnMenu{
+        flex-direction: column;
+
+    }
+    .greyBlock, .block{
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 90%;
+    }
+    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+        margin: 0;
+        padding: 0px ;
+        text-align: center;
+    }
+    .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
+        padding: 5px;
+    }
+    
+    .whiteContainer, .greyContainer{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .width40, .width50{
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+        
+    }
+    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
+        align-self: center;
+    }
+    
+    .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
+        font-size: 16px;
+    }
+    .whiteParThree{
+        font-size: 16px;
+    }
+    .whitePar{
+        font-size: 10px;
+        text-align: center;
+    }
+    form{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .backFour{
+        height: max-content;
+        padding: 10px;
+    }
+    .column{
+        padding: 0;
+        width: 100%;
+    }
+    ul, .circle{
+        align-self: center;
+    }
+}
+
+@media all and (max-width : 500px) {
+    h1{
+        font-size: 35px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px; 
+    }
+    h1,.h2, h3, h4{
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .headBtn{
+        flex-direction: column;
+    }
+    .blackTitre{
+        font-size: 30px;
+    }
+    .myNav{
+        flex-direction: column;
+    }
+    .logoNav{
+        margin-right: 0;
+        margin: 0;
+    }
+    .navLink{
+        margin: 10px 0px;
+    }
+    #hidden{
+        display: none;
+        padding: 5px 0px;
+        
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .greyBlock, .block{
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 90%;
+    }
+    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+        margin: 0;
+        padding: 0px ;
+        text-align: center;
+    }
+    .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
+        padding: 5px;
+    }
+    
+    .whiteContainer, .greyContainer{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .width40, .width50{
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+        
+    }
+    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
+        align-self: center;
+    }
+    
+    .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
+        font-size: 16px;
+    }
+    .whiteParThree{
+        font-size: 16px;
+    }
+    .whitePar{
+        font-size: 10px;
+        text-align: center;
+    }
+    form{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .backFour{
+        height: max-content;
+        padding: 10px;
+    }
+    .column{
+        padding: 0;
+        width: 100%;
+    }
+    ul, .circle{
+        align-self: center;
+    }
+}
+
+@media all and (max-width : 280px) {
+    h1{
+        font-size: 35px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px; 
+    }
+    h1,.h2, h3, h4{
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .headBtn{
+        flex-direction: column;
+    }
+    .blackTitre{
+        font-size: 30px;
+    }
+    .myNav{
+        flex-direction: column;
+    }
+    .logoNav{
+        margin-right: 0;
+        margin: 0;
+    }
+    .navLink{
+        margin: 10px 0px;
+    }
+    #hidden{
+        display: none;
+        padding: 5px 0px;
+        
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .greyBlock, .block{
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 90%;
+    }
+    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+        margin: 0;
+        padding: 0px ;
+        text-align: center;
+    }
+    .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
+        padding: 5px;
+    }
+    
+    .whiteContainer, .greyContainer{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        
+    }
+    .width40, .width50{
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+        
+    }
+    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
+        align-self: center;
+    }
+    
+    .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
+        font-size: 16px;
+    }
+    .whiteParThree{
+        font-size: 12px;
+    }
+    .whitePar{
+        font-size: 10px;
+        text-align: center;
+    }
+    form{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .backFour{
+        height: max-content;
+        padding: 10px;
+    }
+    .column{
+        padding: 0;
+        width: 100%;
+    }
+    ul, .circle{
+        align-self: center;
+    }
+}
