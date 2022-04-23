@@ -587,6 +587,9 @@ a{
     .headBtn{
         flex-direction: column;
     }
+    .heading{
+        background-attachment: unset;
+    }
     .myNav{
         flex-direction: column;
     }
@@ -691,6 +694,9 @@ a{
     .headBtn{
         flex-direction: column;
     }
+    .heading{
+        background-attachment: unset;
+    }
     .blackTitre{
         font-size: 30px;
     }
@@ -793,6 +799,9 @@ a{
     }
     .headBtn{
         flex-direction: column;
+    }
+    .heading{
+        background-attachment: unset;
     }
     .blackTitre{
         font-size: 30px;
