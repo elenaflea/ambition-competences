@@ -587,11 +587,12 @@ a{
     .headBtn{
         flex-direction: column;
     }
-   .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
+    .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
     }
     .myNav{
         flex-direction: column;
+        padding: 10px 0px;
     }
     .logoNav{
         margin-right: 0;
@@ -617,45 +618,45 @@ a{
     }
     .greyBlock, .block{
     flex-direction: column;
-    align-content: center;
-    text-align: center;
-    width: 90%;
+    align-content: flex-start;
+    width: 80%;
     }
-    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+    .titre, .blackTitre{
         margin: 0;
-        padding: 0px ;
-        text-align: center;
+        padding: 15px 0px;
     }
     .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
-        padding: 5px;
-    }
-    
-    .whiteContainer, .greyContainer{
-        margin: 0;
         padding: 0px;
-        width: 100%;
-        
+        margin: 15px 10px;
     }
+    .rightBlock, .leftBlock, .block, .whiteContainer, .greyContainer{
+        padding: 0;
+        margin: 0;
+    }
+   
     .width40, .width50{
         width: 100%;
-        text-align: center;
-        align-self: center;
         margin: 0;
         
     }
-    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
-        align-self: center;
+    .doneIcon, .blackTitre, .bluePar, .blackPar{
+        align-self: flex-start;
     }
+    
     
     .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
         font-size: 16px;
+    }
+    .smallEcranCenter{
+        align-self:  center;
+        text-align: center;
     }
     .whiteParThree{
         font-size: 16px;
     }
     .whitePar{
         font-size: 10px;
-        text-align: center;
+        
     }
     form{
         flex-direction: column;
@@ -671,7 +672,7 @@ a{
         padding: 0;
         width: 100%;
     }
-    ul, .circle{
+    .circle{
         align-self: center;
     }
 }
@@ -697,11 +698,9 @@ a{
     .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
     }
-    .blackTitre{
-        font-size: 30px;
-    }
     .myNav{
         flex-direction: column;
+        padding: 10px 0px;
     }
     .logoNav{
         margin-right: 0;
@@ -721,47 +720,54 @@ a{
         top: 30px;
         right: 30px;
     }
+    .columnMenu{
+        flex-direction: column;
+
+    }
     .greyBlock, .block{
     flex-direction: column;
-    align-content: center;
-    text-align: center;
-    width: 90%;
+    align-content: flex-start;
+    width: 80%;
     }
-    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+    .titre, .blackTitre{
         margin: 0;
-        padding: 0px ;
-        text-align: center;
+        padding: 15px 0px;
+    }
+    .blackTitre{
+        font-size: 30px;
     }
     .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
-        padding: 5px;
-    }
-    
-    .whiteContainer, .greyContainer{
-        margin: 0;
         padding: 0px;
-        width: 100%;
-        
+        margin: 15px 10px;
     }
+    .rightBlock, .leftBlock, .block, .whiteContainer, .greyContainer{
+        padding: 0;
+        margin: 0;
+    }
+   
     .width40, .width50{
         width: 100%;
-        text-align: center;
-        align-self: center;
         margin: 0;
         
     }
-    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
-        align-self: center;
+    .doneIcon, .blackTitre, .bluePar, .blackPar{
+        align-self: flex-start;
     }
+    
     
     .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
         font-size: 16px;
+    }
+    .smallEcranCenter{
+        align-self:  center;
+        text-align: center;
     }
     .whiteParThree{
         font-size: 16px;
     }
     .whitePar{
         font-size: 10px;
-        text-align: center;
+        
     }
     form{
         flex-direction: column;
@@ -777,7 +783,7 @@ a{
         padding: 0;
         width: 100%;
     }
-    ul, .circle{
+    .circle{
         align-self: center;
     }
 }
@@ -800,18 +806,19 @@ a{
     .headBtn{
         flex-direction: column;
     }
-   .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
+    .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
-    }
-    .blackTitre{
-        font-size: 30px;
     }
     .myNav{
         flex-direction: column;
+        padding: 10px 0px;
     }
     .logoNav{
         margin-right: 0;
         margin: 0;
+    }
+    .logoNavPng{
+        height: 40px;
     }
     .navLink{
         margin: 10px 0px;
@@ -827,47 +834,56 @@ a{
         top: 30px;
         right: 30px;
     }
+    .columnMenu{
+        flex-direction: column;
+
+    }
     .greyBlock, .block{
     flex-direction: column;
-    align-content: center;
-    text-align: center;
-    width: 90%;
+    align-content: flex-start;
+    width: 80%;
     }
-    .rightBlock, .leftBlock,  .titrePlace, .marginZero, .block, .titre, .doneIcon, .blackTitre{
+    .titre, .blackTitre{
         margin: 0;
-        padding: 0px ;
-        text-align: center;
+        padding: 15px 0px;
+    }
+    .blackTitre{
+        font-size: 30px;
     }
     .titre, .smallTitre, .smallTitreTwo, .blackSousTitreTwo, .blackParTwo{
-        padding: 5px;
-    }
-    
-    .whiteContainer, .greyContainer{
-        margin: 0;
         padding: 0px;
-        width: 100%;
-        
+        margin: 15px 10px;
     }
+    .rightBlock, .leftBlock, .block, .whiteContainer, .greyContainer{
+        padding: 0;
+        margin: 0;
+    }
+   
     .width40, .width50{
         width: 100%;
-        text-align: center;
-        align-self: center;
         margin: 0;
         
     }
-    .doneIcon, .blackSousTitreTwo, .blackTitre, .bluePar, .blackPar{
-        align-self: center;
+    .doneIcon, .blackTitre, .bluePar, .blackPar{
+        align-self: flex-start;
     }
-    
+    .blackTitre{
+        font-size: 26px;
+    }
+    .smallEcranCenter{
+        align-self:  center;
+        text-align: center;
+    }
+   
     .blackSousTitreTwo, .greyPar, .blackPar, .whiteParThree{
-        font-size: 16px;
+        font-size: 14px;
     }
     .whiteParThree{
         font-size: 12px;
     }
     .whitePar{
         font-size: 10px;
-        text-align: center;
+    
     }
     form{
         flex-direction: column;
@@ -883,7 +899,7 @@ a{
         padding: 0;
         width: 100%;
     }
-    ul, .circle{
+    .circle{
         align-self: center;
     }
 }
