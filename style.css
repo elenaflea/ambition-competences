@@ -587,7 +587,7 @@ a{
     .headBtn{
         flex-direction: column;
     }
-    .heading{
+   .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
     }
     .myNav{
@@ -694,7 +694,7 @@ a{
     .headBtn{
         flex-direction: column;
     }
-    .heading{
+    .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
     }
     .blackTitre{
@@ -800,7 +800,7 @@ a{
     .headBtn{
         flex-direction: column;
     }
-    .heading{
+   .heading, .back, .backFive, .backFour, .backThree, .backTwo, .backSix{
         background-attachment: unset;
     }
     .blackTitre{
