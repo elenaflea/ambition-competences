@@ -198,7 +198,7 @@ h4{
 }
 .back{
     height: 40vh;
-    background-image: url('back.jpg');
+    background-image: url('back-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -206,7 +206,7 @@ h4{
 }
 .backTwo{
     height: 40vh;
-    background-image: url('back22.jpg');
+    background-image: url('back22-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
