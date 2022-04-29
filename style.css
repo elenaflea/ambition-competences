@@ -243,8 +243,8 @@ h4{
     align-items: center;
 }
 .backSix{
-    height: 60vh;
-    background-image: url('back66-min.jpg');
+    height: 40vh;
+    background-image: url('back6.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
