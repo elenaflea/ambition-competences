@@ -391,10 +391,13 @@ h4{
 }
 .greyPar{
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     color: #666666;
     margin: 10px
+}
+.boldFont{
+    font-weight: 900;
 }
 .whitePar{
     font-family: 'Roboto', sans-serif;
