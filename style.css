@@ -294,11 +294,17 @@ h4{
     text-align: left;
     
 }
+.cadree{
+    padding: 20px;
+    background-color: #FCF69C ;
+    box-shadow:0px 3px 8px #949494;
+}
 .blackLine{
     height: 1px;
     background: #000000;
     border: 1px solid #000000;
     width: 90%;
+    margin-top: 10px;
 }
 .blackSousTitre{
     color: #000;
