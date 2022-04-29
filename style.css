@@ -344,6 +344,9 @@ h4{
 .pointer{
     cursor: pointer;
 }
+.load:hover{
+    color: #c7c7c7;
+}
 .block{
     display: flex;
     flex-direction: row;
