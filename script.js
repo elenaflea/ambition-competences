@@ -29,3 +29,6 @@ function myFunctionMobilePlus() {
         
     }
 };
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
