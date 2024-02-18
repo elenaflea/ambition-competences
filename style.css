@@ -3,7 +3,7 @@ body{
 }
 .heading {
     height: 100vh;
-    background-image: url('hand5-min.jpg');
+    background-image: url('assets/hand5-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -198,7 +198,7 @@ h4{
 }
 .back{
     height: 40vh;
-    background-image: url('back-min.jpg');
+    background-image: url('assets/back-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -206,7 +206,7 @@ h4{
 }
 .backTwo{
     height: 40vh;
-    background-image: url('back22-min.jpg');
+    background-image: url('assets/back22-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -214,7 +214,7 @@ h4{
 }
 .backThree{
     height: 40vh;
-    background-image: url('back3-min.jpg');
+    background-image: url('assets/back3-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -222,7 +222,7 @@ h4{
 }
 .backFour{
     height: 70vh;
-    background-image: url('back44-min.jpg');
+    background-image: url('assets/back44-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -233,7 +233,7 @@ h4{
 }
 .backFive{
     height: 40vh;
-    background-image: url('back55-min.jpg');
+    background-image: url('assets/back55-min.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -244,7 +244,7 @@ h4{
 }
 .backSix{
     height: 40vh;
-    background-image: url('back6.jpg');
+    background-image: url('assets/back6.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
