@@ -682,7 +682,14 @@ a{
     transition: transform 0.25s ease;
     cursor: zoom-in;
   }
-
+.zooming{
+    transform: scale(4);
+    -webkit-transform: scale(4);
+    -webkit-transition: all 0.25s ease-in-out 0s;
+        -moz-transition: all 0.25s ease-in-out 0s;
+        -ms-transition: all 0.25s ease-in-out 0s;
+        -o-transition: all 0.25s ease-in-out 0s;
+}
   .cert:hover {
   /*  transform: scale(4);*/
     cursor: zoom-out;
