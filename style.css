@@ -803,6 +803,18 @@ a{
     .circle{
         align-self: center;
     }
+
+    .zoom .cert{
+        width: 120px;
+        height: auto;
+        transition: transform 0.25s ease;
+      cursor: zoom-in;
+      }
+
+    .cert:active, .cert:hover {
+        transform: scale(2);
+        cursor: zoom-out;
+      }
 }
 
 @media all and (max-width : 500px) {
@@ -914,6 +926,13 @@ a{
     .circle{
         align-self: center;
     }
+
+    .zoom .cert{
+        width: 120px;
+        height: auto;
+        transition: transform 0.25s ease;
+      cursor: zoom-in;
+      }
 
     .cert:active, .cert:hover {
         transform: scale(2);
@@ -1035,6 +1054,13 @@ a{
     .circle{
         align-self: center;
     }
+
+    .zoom .cert{
+        width: 120px;
+        height: auto;
+        transition: transform 0.25s ease;
+      cursor: zoom-in;
+      }
 
     .cert:active, .cert:hover {
         transform: scale(1.7);
