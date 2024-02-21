@@ -681,6 +681,7 @@ a{
     max-width: 90%;
     transition: transform 0.25s ease;
     cursor: zoom-in;
+    margin: 10px;
   }
 .zooming{
     transform: scale(4);
