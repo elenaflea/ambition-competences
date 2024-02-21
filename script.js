@@ -35,5 +35,5 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 document.querySelector(".cert").addEventListener("mouseup", (event) => {
-    document.querySelector(".cert").classList.add("zooming")
+  //  document.querySelector(".cert").classList.add("zooming")
 })
