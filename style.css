@@ -655,6 +655,13 @@ a{
     font-weight: bold;
     font-size: 48px;
   }
+
+  .percentWijet {
+    width: 160px;
+    height: 160px;
+    align-self: center;
+
+  }
 /*-----------------------------------------------*/  
 
 @media all and (max-width : 800px) {
