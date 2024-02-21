@@ -680,7 +680,7 @@ a{
     height: 210px;
     max-width: 90%;
     transition: transform 0.25s ease;
-  cursor: zoom-in;
+    cursor: zoom-in;
   }
 
   .cert:hover {
