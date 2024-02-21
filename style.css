@@ -816,7 +816,21 @@ a{
     .circle{
         align-self: center;
     }
+    .cert{
+        max-width: 90%;
+        transition: transform 0.25s ease;
+        cursor: zoom-in;
+      }
 
+      .cert:hover {
+      /*  transform: scale(4);*/
+        cursor: zoom-out;
+        -webkit-transform: scale(2.5);
+            -webkit-transition: all 0.25s ease-in-out 0s;
+            -moz-transition: all 0.25s ease-in-out 0s;
+            -ms-transition: all 0.25s ease-in-out 0s;
+            -o-transition: all 0.25s ease-in-out 0s;
+      }
 
 
 }
@@ -930,7 +944,21 @@ a{
     .circle{
         align-self: center;
     }
+    .cert{
+        max-width: 90%;
+        transition: transform 0.25s ease;
+        cursor: zoom-in;
+      }
 
+      .cert:hover {
+      /*  transform: scale(4);*/
+        cursor: zoom-out;
+        -webkit-transform: scale(2);
+            -webkit-transition: all 0.25s ease-in-out 0s;
+            -moz-transition: all 0.25s ease-in-out 0s;
+            -ms-transition: all 0.25s ease-in-out 0s;
+            -o-transition: all 0.25s ease-in-out 0s;
+      }
     
 
 }
@@ -1049,7 +1077,21 @@ a{
     .circle{
         align-self: center;
     }
+    .cert{
+        max-width: 90%;
+        transition: transform 0.25s ease;
+        cursor: zoom-in;
+      }
 
+      .cert:hover {
+      /*  transform: scale(4);*/
+        cursor: zoom-out;
+        -webkit-transform: scale(1.5);
+            -webkit-transition: all 0.25s ease-in-out 0s;
+            -moz-transition: all 0.25s ease-in-out 0s;
+            -ms-transition: all 0.25s ease-in-out 0s;
+            -o-transition: all 0.25s ease-in-out 0s;
+      }
     
 
   
