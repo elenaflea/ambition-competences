@@ -811,24 +811,8 @@ a{
         align-self: center;
     }
 
-    .zoom .cert{
-       
-        width: 120px;
-        height: auto;
-        transition: transform 0.25s ease;
-        max-width: 90%;
-      cursor: zoom-in;
-      }
 
-  /*  .cert:hover {
-        transform: scale(2);
-        cursor: zoom-out;
-        -webkit-transform: scale(2);
-        -webkit-transition: all 0.25s ease-in-out 0s;
-        -moz-transition: all 0.25s ease-in-out 0s;
-        -ms-transition: all 0.25s ease-in-out 0s;
-        -o-transition: all 0.25s ease-in-out 0s;
-      }*/
+
 }
 
 @media all and (max-width : 500px) {
@@ -941,23 +925,8 @@ a{
         align-self: center;
     }
 
-    .zoom .cert{
-        width: 120px;
-        height: auto;
-        max-width: 90%;
-        transition: transform 0.25s ease;
-      cursor: zoom-in;
-      }
-/*
-    .cert:hover {
-        transform: scale(2);
-        cursor: zoom-out;
-        -webkit-transform: scale(2);
-        -webkit-transition: all 0.25s ease-in-out 0s;
-        -moz-transition: all 0.25s ease-in-out 0s;
-        -ms-transition: all 0.25s ease-in-out 0s;
-        -o-transition: all 0.25s ease-in-out 0s;
-      }*/
+    
+
 }
 
 @media all and (max-width : 280px) {
@@ -1075,21 +1044,7 @@ a{
         align-self: center;
     }
 
-    .zoom .cert{
-        width: 120px;
-        height: auto;
-        max-width: 90%;
-        transition: transform 0.25s ease;
-      cursor: zoom-in;
-      }
+    
 
-   /* .cert:hover {
-        transform: scale(1.7);
-        cursor: zoom-out;
-        -webkit-transform: scale(1.7);
-        -webkit-transition: all 0.25s ease-in-out 0s;
-        -moz-transition: all 0.25s ease-in-out 0s;
-        -ms-transition: all 0.25s ease-in-out 0s;
-        -o-transition: all 0.25s ease-in-out 0s;
-      }*/
+  
 }
