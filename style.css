@@ -662,6 +662,39 @@ a{
     align-self: center;
 
   }
+
+  .left{
+    text-align: start;
+  }
+
+  .footQuality{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+  }
+
+  .zoom .cert{
+    width: 150px;
+    height: auto;
+    transition: transform 0.25s ease;
+  cursor: zoom-in;
+  }
+
+  .cert:active, .cert:hover {
+    transform: scale(4);
+    cursor: zoom-out;
+  }
+
+  .inputQuali[type=checkbox] {
+    display: none;
+  }
+
+  .inputQuali[type=checkbox]:checked ~ label > .cert {
+    transform: scale(2);
+    cursor: zoom-out;
+  }
 /*-----------------------------------------------*/  
 
 @media all and (max-width : 800px) {
@@ -881,6 +914,11 @@ a{
     .circle{
         align-self: center;
     }
+
+    .cert:active, .cert:hover {
+        transform: scale(2);
+        cursor: zoom-out;
+      }
 }
 
 @media all and (max-width : 280px) {
@@ -997,4 +1035,9 @@ a{
     .circle{
         align-self: center;
     }
+
+    .cert:active, .cert:hover {
+        transform: scale(1.7);
+        cursor: zoom-out;
+      }
 }
