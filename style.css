@@ -676,15 +676,16 @@ a{
   }
 
   .cert{
-    max-width: 90%;
+   
     width: 150px;
     height: auto;
+    max-width: 90%;
     transition: transform 0.25s ease;
   cursor: zoom-in;
   }
 
-  .cert:active, .cert:hover {
-    transform: scale(4);
+  .cert:hover {
+  /*  transform: scale(4);*/
     cursor: zoom-out;
     -webkit-transform: scale(4);
         -webkit-transition: all 0.25s ease-in-out 0s;
@@ -819,7 +820,7 @@ a{
       cursor: zoom-in;
       }
 
-    .cert:active, .cert:hover {
+  /*  .cert:hover {
         transform: scale(2);
         cursor: zoom-out;
         -webkit-transform: scale(2);
@@ -827,7 +828,7 @@ a{
         -moz-transition: all 0.25s ease-in-out 0s;
         -ms-transition: all 0.25s ease-in-out 0s;
         -o-transition: all 0.25s ease-in-out 0s;
-      }
+      }*/
 }
 
 @media all and (max-width : 500px) {
@@ -947,8 +948,8 @@ a{
         transition: transform 0.25s ease;
       cursor: zoom-in;
       }
-
-    .cert:active, .cert:hover {
+/*
+    .cert:hover {
         transform: scale(2);
         cursor: zoom-out;
         -webkit-transform: scale(2);
@@ -956,7 +957,7 @@ a{
         -moz-transition: all 0.25s ease-in-out 0s;
         -ms-transition: all 0.25s ease-in-out 0s;
         -o-transition: all 0.25s ease-in-out 0s;
-      }
+      }*/
 }
 
 @media all and (max-width : 280px) {
@@ -1082,7 +1083,7 @@ a{
       cursor: zoom-in;
       }
 
-    .cert:active, .cert:hover {
+   /* .cert:hover {
         transform: scale(1.7);
         cursor: zoom-out;
         -webkit-transform: scale(1.7);
@@ -1090,5 +1091,5 @@ a{
         -moz-transition: all 0.25s ease-in-out 0s;
         -ms-transition: all 0.25s ease-in-out 0s;
         -o-transition: all 0.25s ease-in-out 0s;
-      }
+      }*/
 }
