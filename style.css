@@ -676,9 +676,8 @@ a{
   }
 
   .cert{
-   
     width: 150px;
-    height: 212px;
+    height: 210px;
     max-width: 90%;
     transition: transform 0.25s ease;
   cursor: zoom-in;
@@ -687,7 +686,7 @@ a{
   .cert:hover {
   /*  transform: scale(4);*/
     cursor: zoom-out;
-   /* -webkit-transform: scale(4);*/
+    -webkit-transform: scale(4);
         -webkit-transition: all 0.25s ease-in-out 0s;
         -moz-transition: all 0.25s ease-in-out 0s;
         -ms-transition: all 0.25s ease-in-out 0s;
